@@ -208,7 +208,7 @@ export default class YouTube extends React.Component {
           style={[
             styles.module,
             { marginRight: this.state.resizingHackFlag ? StyleSheet.hairlineWidth : 0 },
-            { height: this.state.fullscreen ? '80%' : '100%'
+            { height: this.state.fullscreen ? '80%' : '100%' },
           ]}
           onYouTubeError={this._onError}
           onYouTubeReady={this._onReady}
